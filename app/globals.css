@@ -47,7 +47,7 @@ a {
 }
 
 .hero {
-    /* background: url('../images/2020/hero-2020.jpg') no-repeat 0 50%; */
+    background: url('../public/images/hero-2020.jpg') no-repeat 0 50%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -70,7 +70,7 @@ a {
 }
 
 .zitat-box {
-    width: 50%;
+    width: 55%;
     background: #dedede!important;
     color: #333!important;
     font-style: italic;
