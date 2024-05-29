@@ -7,8 +7,7 @@ import { FiPhone } from "react-icons/fi";
 import { FaRegEnvelope } from "react-icons/fa6";
 
 const Navigation = () => {
-  const currentPath = usePathname();
-  console.log(currentPath);
+  const pathname = usePathname();
   const links = [
     {
       label: "Home",
@@ -70,9 +69,10 @@ const Navigation = () => {
                     link && (
                       <li className="nav-item" key={link.href}>
                         <Link
-                          className="nav-link"
-                          key={link.href}
                           href={link.href}
+                          className={`nav-link ${
+                            pathname === link.href ? "active" : ""
+                          }`}
                         >
                           {link.label}
                         </Link>
