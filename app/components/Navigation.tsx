@@ -19,7 +19,7 @@ const Navigation = () => {
     },
     {
       label: "Angebot",
-      href: "/angebot",
+      href: "/training",
     },
     {
       label: "Preise",
@@ -120,9 +120,12 @@ const Navigation = () => {
                     link && (
                       <li className="nav-item" key={link.href}>
                         <Link
-                          className="nav-link text-primary"
-                          key={link.href}
                           href={link.href}
+                          className={`nav-link  ${
+                            pathname === link.href
+                              ? "active text-white"
+                              : "text-primary"
+                          }`}
                         >
                           {link.label}
                         </Link>

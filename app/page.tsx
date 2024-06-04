@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { FiChevronRight } from "react-icons/fi";
+import CustomLinks from "./components/CustomLinks";
 
 export default function Home() {
   return (
@@ -47,10 +48,10 @@ export default function Home() {
               Neben der Kampfkunst wirst du auch deine Ausdauer, Fitness,
               Koordination und Beweglichkeit trainieren.
             </p>
-            <a href="wingtzun.html" className="text-primary mt-5 fs-5">
-              Weitere Informationen zu Wing Tzun
-              <FiChevronRight color="#305096" size={23} />
-            </a>
+            <CustomLinks
+              href="wingtzun"
+              name="Weitere Informationen zu Wing Tzun"
+            />
           </div>
           <div className="col-12 col-md-6 d-none d-md-flex">
             <Image

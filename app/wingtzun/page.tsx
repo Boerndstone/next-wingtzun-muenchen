@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { FiChevronRight } from "react-icons/fi";
+import CustomLinks from "../components/CustomLinks";
 
 const page = () => {
   return (
@@ -20,13 +20,10 @@ const page = () => {
                 ist die Ausprägung von wichtigen Fähigkeiten, die einem in
                 Konfliktsituationen jeglicher Art zur Verfügung stehen.
               </p>
-              <a
-                href="wingtzun.html#prinzip"
-                className="text-primary mt-5 fs-5"
-              >
-                Die Wing Tzun Prinzipien
-                <FiChevronRight color="#305096" size={23} />
-              </a>
+              <CustomLinks
+                href="wingtzun#prinzip"
+                name="Die Wing Tzun Prinzipien"
+              />
             </div>
           </div>
         </div>
