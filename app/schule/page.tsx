@@ -163,8 +163,8 @@ const page = () => {
         <div className="container">
           <div className="zitat-box p-3 my-5 mx-auto rounded-2">
             <h3 className="text-center fs-5 fw-normal">
-              "Nur wer seine Fähigkeiten kennt, kann Sie auch im richtigen
-              Zeitpunkt nutzen."
+              &quot;Nur wer seine Fähigkeiten kennt, kann Sie auch im richtigen
+              Zeitpunkt nutzen.&quot;
             </h3>
             <p className="fs-5 text-center">Sifu Kostas</p>
           </div>

@@ -164,10 +164,10 @@ const page = () => {
                 des Wing Tzun betont.
               </p>
               <p className="fs-5">
-                So wirkt etwa das Üben der "Wing Tzun"-Formen den typischen
-                Haltungsschäden entgegen. Die Entspannung und Lockerung des
-                ganzen Bewegungsapparates wird hierauf aufbauend durch spezielle
-                Dehnübungen unterstützt.
+                So wirkt etwa das Üben der &quot;Wing Tzun&quot;-Formen den
+                typischen Haltungsschäden entgegen. Die Entspannung und
+                Lockerung des ganzen Bewegungsapparates wird hierauf aufbauend
+                durch spezielle Dehnübungen unterstützt.
               </p>
             </div>
             <div className="col-xs-12 col-sm-6">

@@ -112,8 +112,8 @@ const page = () => {
         <div className="container">
           <div className="zitat-box p-3 my-md-5 mx-auto rounded-2">
             <h3 className="text-center fs-5 fw-normal">
-              "Nimm die Dinge, wie sie sind: Schlage, wenn du schlagen musst.
-              Tritt, wenn du treten musst."
+              &quot;Nimm die Dinge, wie sie sind: Schlage, wenn du schlagen
+              musst. Tritt, wenn du treten musst.&quot;
             </h3>
             <p className="fs-5 text-center">Bruce Lee</p>
           </div>
@@ -134,8 +134,8 @@ const page = () => {
                 aus.
               </p>
               <p className="fs-5">
-                Das in Deutschland gelehrte Wing Tzun leitet sich von Yip Man's
-                letztem Meisterschüler Großmeister Leung Ting ab.
+                Das in Deutschland gelehrte Wing Tzun leitet sich von Yip
+                Man&apos;s letztem Meisterschüler Großmeister Leung Ting ab.
               </p>
             </div>
             <div className="col-12 col-md-4">
@@ -175,10 +175,10 @@ const page = () => {
             <h3 className="text-center">1. Prinzip:</h3>
             <p className="fs-5 text-center mb-5">
               Angriff ist die beste Verteidigung! Mit diesem Prinzip kannst du,
-              als Angegriffener, das Kampfgeschehen von Anfang an "selbst in die
-              Hand nehmen": Du reagierst auf feindseliges Überschreiten der
-              Sicherheitsdistanz mit einem gradlinigen direkten Gegenangriff
-              (Universallösung).
+              als Angegriffener, das Kampfgeschehen von Anfang an &quot;selbst
+              in die Hand nehmen&quot;: Du reagierst auf feindseliges
+              Überschreiten der Sicherheitsdistanz mit einem gradlinigen
+              direkten Gegenangriff (Universallösung).
             </p>
             <h3 className="text-center">2. Prinzip:</h3>
             <p className="fs-5 text-center mb-5">

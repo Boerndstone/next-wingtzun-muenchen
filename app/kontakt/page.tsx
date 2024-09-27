@@ -1,4 +1,5 @@
 import { FiPhone, FiMail, FiGlobe } from "react-icons/fi";
+// import ContactForm from "../components/ContactForm";
 
 const page = () => {
   return (
@@ -133,6 +134,18 @@ const page = () => {
               </div>
             </div>
           </div>
+        </div>
+      </section>
+      <section className="container-blau py-5">
+        <div className="container">
+          <section className="row">
+            <div className="col-12 col-md-7">
+              <h2 className="fs-3 fw-light mb-3 text-uppercase">
+                Deine Nachricht an uns.
+              </h2>
+            </div>
+            {/* <ContactForm /> */}
+          </section>
         </div>
       </section>
     </>

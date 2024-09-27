@@ -35,8 +35,8 @@ const page = () => {
       <div className="container">
         <div className="zitat-box p-3 my-5 mx-auto rounded-2">
           <h3 className="text-center fs-5 fw-normal">
-            "Die Erfahrung ist wie eine Laterne im Rücken; sie beleuchtet stets
-            nur das Stück Weg, das wir bereits hinter uns haben."
+            &quot;Die Erfahrung ist wie eine Laterne im Rücken; sie beleuchtet
+            stets nur das Stück Weg, das wir bereits hinter uns haben.&quot;
           </h3>
           <p className="fs-5 text-center">Konfuzius</p>
         </div>
